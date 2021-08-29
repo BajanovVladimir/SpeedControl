@@ -73,16 +73,10 @@ class ViewController: UIViewController {
     
     @IBAction func buttonCalculation(_ sender: Any) {
         if let speed:Int=Int(textFieldYourSpeed.text!){
-            
-            
             labelDisplaingValues.text=speedControl(speed: speed,city: modeInTheCity)
-            
         } else{
-        
             textFieldYourSpeed.text="Введите число"
-            
-          }
+        }
     }
-    
 }
 
