@@ -22,10 +22,6 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var labelDisplaingValues: UILabel!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
     func updateUI(){
         view.backgroundColor=lightOn  ? .systemGray6 : .systemGreen
     }
